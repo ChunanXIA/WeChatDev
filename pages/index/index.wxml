@@ -7,11 +7,18 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+ 
+
+  <form name='pushMsgFm' report-submit bindsubmit='orderSign'>  
+    enter product:<input type="text" name="product" value='' placeholder="enter your name" />  
+    detail: <input type="text" name='detail' placeholder="enter desc" />  
+    select sex:<switch type="switch" name='sex' />  
+    <button form-type="submit">submit</button>  
+</form>  
   
   <view class="btn-area">
+
+
   
   <navigator url="events/eventList" open-type="redirect" hover-class="navigator-hover">在当前页打开</navigator>
   

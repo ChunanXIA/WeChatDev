@@ -32,8 +32,21 @@ App({
         }
       }
     })
+  var that = this
+  that.globalData.wxData.appid = 'wx654f513a143e80df'
+  that.globalData.wxData.secret = '2a66ff3175e0ba7d7064b5bb41ae7d8f'
+  that.globalData.wxData.token = '8_GoIBTcYRZGrNomQQ6YOMO50aFMo1S3HwRKzRR82wVzuxDmVV5xYsFCbK1E-ujNwEd642rAtZ6eCQ0WrTdLsLIyUCpNejdNKJgyOZXzmXJwu7Fa-Q9WIrKRf3GWUk3dTR-2QDYNdkMrVGimNgMUYgAIADLP'
+  
+
+  
   },
   globalData: {
     userInfo: null
+    , wxData: {
+      appid: null
+      , secret: null
+      , token: null
+    }
+
   }
 })
